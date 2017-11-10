@@ -6,19 +6,19 @@
     "license": "BSD-3-Clause",    
     "repositories": [
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/artf/grapesjs.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/artf/grapesjs-blocks-basic.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/artf/grapesjs-navbar.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/artf/grapesjs-preset-newsletter.git"
         }
     ],
