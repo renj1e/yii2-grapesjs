@@ -1,0 +1,37 @@
+{
+    "name": "renj1e/yii2-grapesjs",
+    "description": "Yii2 GrapesJs Web Builder Framework",
+    "type": "library",
+    "keywords": ["yii2","extension","grapesjs"],
+    "license": "BSD-3-Clause",    
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/artf/grapesjs.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/artf/grapesjs-blocks-basic.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/artf/grapesjs-navbar.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/artf/grapesjs-preset-newsletter.git"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "artf/grapesjs":"dev-master",
+        "artf/grapesjs-blocks-basic":"dev-master",
+        "artf/grapesjs-navbar":"dev-master",
+        "artf/grapesjs-preset-newsletter":"dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "GrapesJs\\": ""
+        }
+    }
+}
